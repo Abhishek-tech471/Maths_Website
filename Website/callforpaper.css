@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Container Styling */
+.container {
+  max-width: 1700px; /* Increased width */
+  margin: 0 auto; /* Center align */
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.call-for-paper,
+.track-list,
+.important-dates {
+  background: #ffffff;
+  padding: 50px;
+
+  margin: 20px auto;
+  width: 1200px; /* Keeping content width fixed */
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  color: #036633;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 60px;
+  border: 3px solid #036633;
+  border-radius: 10px;
+  margin: 10px auto 20px;
+}
+
+/* Paragraph */
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+/* Track Section */
+.track-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures content stays centered */
+}
+
+.track {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 900px; /* Keeping content width fixed */
+}
+
+/* Track Title */
+.track-title {
+  background: #138d38;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Track Description */
+.track-description {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #444;
+  background: white;
+}
+
+/* Important Dates Table */
+.important-dates table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.important-dates td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  text-align: left;
+}
+
+.important-dates tr:hover {
+  background: #e9f5ff;
+}
+
+/* Highlighted Text */
+.highlight-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.highlight-date {
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+}
+
+/* Note Section */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #444;
+  background: #fffae6;
+  padding: 12px;
+  border-left: 6px solid #ffcc00;
+  border-radius: 6px;
+}
+.track-list > p {
+  width: 80%;
+  text-align: center;
+  /* justify-items: center; */
+  margin: auto;
+}
+.call {
+  padding-top: 100px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .call-for-paper,
+  .track-list,
+  .important-dates,
+  .track {
+    width: 100%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .track-title {
+    font-size: 17px;
+    padding: 10px 15px;
+  }
+
+  .track-description {
+    font-size: 15px;
+    padding: 12px 15px;
+  }
+
+  .important-dates td {
+    font-size: 15px;
+  }
+
+  .highlight-text,
+  .highlight-date {
+    font-size: 16px;
+  }
+}

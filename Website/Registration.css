@@ -1,0 +1,179 @@
+/* General Page Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+  color: #333;
+}
+
+.reg-page {
+  /* max-width: 1100px; */
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 100px;
+}
+
+/* Section Titles */
+h2 {
+  color: #2e7d32;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.registration-divider {
+  width: 80px;
+  height: 4px;
+  background: #2e7d32;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Registration Table */
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.registration-table th,
+.registration-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+.registration-table th {
+  background: #2e7d32;
+  color: white;
+}
+
+.registration-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Registration Button */
+.registration-button {
+  display: block;
+  width: 250px;
+  background: #00796b;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.registration-button:hover {
+  background: #004d40;
+}
+
+/* Payment Section */
+.bank-payment-container {
+  margin-top: 30px;
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.note-heading {
+  color: #d32f2f;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.note-text {
+  text-align: justify;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.payment-button {
+  display: block;
+  width: 300px;
+  background: #00796b;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.payment-button:hover {
+  background: #880e4f;
+}
+
+/* Payment Table */
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.payment-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #555;
+}
+
+.payment-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Important Rules Section */
+.important-rules-container {
+  margin-top: 40px;
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #1a237e;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-list {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.section-list li {
+  margin-bottom: 10px;
+}
+
+/* Email Link */
+.email-link {
+  color: #d32f2f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.committee-advisory {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .committee-advisory h2 {
+    font-size: 2rem;
+    color: #008040;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+  
+  .advisory-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border: 2px solid #008040;
+    border-radius: 10px;
+  }
+  
+  .advisory-column {
+    padding: 1rem;
+    border-right: 2px solid #008040;
+  }
+  
+  .advisory-column:last-child {
+    border-right: none;
+  }
+  
+  .advisory-column p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: black;  /* Ensuring text inside the box is black */
+    text-align: justify;
+  }
+  
+  .advisory-column p strong {
+    font-weight: bold;
+    color: black;  /* Ensuring strong text inside the box is also black */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .advisory-container {
+      grid-template-columns: 1fr;
+    }
+    .advisory-column {
+      border-right: none;
+      border-bottom: 2px solid #008040;
+      padding-bottom: 1rem;
+    }
+    .advisory-column:last-child {
+      border-bottom: none;
+    }
+  }
+  

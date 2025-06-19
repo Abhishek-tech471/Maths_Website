@@ -1,0 +1,86 @@
+/* Contact Us Section */
+.body {
+  background-color: #eeebeb;
+}
+
+.contact-container {
+  text-align: center;
+  padding: 50px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  max-width: 200%;
+  width: 100vw;
+  /* height: 67.5vh; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+  margin-bottom: 80px;
+  /* padding-top: 100px; */
+}
+
+/* Heading Styles */
+.contact-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #184d47;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.contact-heading::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #184d47;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+/* Contact Box Styling */
+.contact-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333; /* Darker text for visibility */
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Styles */
+.contact-box h3 {
+  font-size: 20px;
+  color: #184d47;
+  font-weight: bold;
+}
+
+.contact-box p {
+  font-size: 16px;
+  color: #000; /* Make text black */
+}
+
+/* Email Link Styling */
+.email-link {
+  color: #184d47;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,171 @@
+.body {
+  background-color: #eeebeb;
+}
+
+.accommodation-container {
+  padding: 2rem;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.hotel-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 1rem; /* Added margin for spacing between cards */
+}
+
+.hotel-name {
+  color: #134e4a;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hotel-address,
+.hotel-facility {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.tariff-list {
+  list-style-type: disc;
+  margin-left: 1rem;
+  color: #444;
+}
+
+.check-out-time {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.hotel-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+}
+
+.image-placeholder {
+  flex: 1;
+  height: 170px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  min-width: 120px; /* Ensure a minimum width for images */
+}
+
+.contact-info {
+  margin-top: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.icon {
+  color: #007bff;
+}
+
+.book-now-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.book-now-btn:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .accommodation-container {
+    padding: 1rem;
+    max-width: 95%;
+    margin-top: 110px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .hotel-card {
+    padding: 1rem;
+  }
+
+  .hotel-name {
+    font-size: 1.3rem;
+  }
+
+  .hotel-address,
+  .hotel-facility {
+    font-size: 0.9rem;
+  }
+
+  .tariff-list {
+    font-size: 0.9rem;
+  }
+
+  .check-out-time {
+    font-size: 0.8rem;
+  }
+
+  .hotel-images {
+    flex-direction: column; /* Stack images vertically on small screens */
+  }
+
+  .image-placeholder {
+    height: 120px;
+    width: 100%; /* Ensure images take full width */
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
+
+  .book-now-btn {
+    font-size: 0.9rem;
+    padding: 12px; /* Slightly increase padding for better touch target */
+  }
+}

@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.committee-page {
+    text-align: center;
+    padding: 30px;
+    padding-top: 110px;
+    margin-left: 40px;
+}
+
+.committee-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(150, 94%, 31%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+}
+
+.committee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.committee-section {
+    width: 100%;
+    /* max-width: 1200px; */
+    text-align: center;
+}
+
+.committee-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.committee-level {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.committee-card {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.committee-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid #008040;
+    object-fit: cover;
+}
+
+.committee-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #008040;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.committee-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.committee-designation,
+.committee-institution {
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .committee-level {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .committee-page {
+        padding: 15px;
+        padding-top: 90px;
+        margin-left: 5px;
+    }
+    .committee-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Title Styling */
+.organizing-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #008040;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+/* Grid Layout */
+.organizing-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+/* Ensuring Uniform Width for All Sections */
+.organizing-section {
+    width: 400px; /* Fixed width for consistency */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    border: 2px solid #008040;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Special Styling for Top 3 Sections */
+.top-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Hover Effect */
+.organizing-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 128, 64, 0.2);
+}
+
+/* Header Styling */
+.organizing-header {
+    background-color: #008040;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Container Styling */
+.organizing-container {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Text Styling */
+.organizing-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: black;
+    /* text-align: center; */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .organizing-row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .organizing-section {
+        width: 100%;
+    }
+}

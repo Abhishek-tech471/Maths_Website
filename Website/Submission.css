@@ -1,0 +1,168 @@
+/* Make the submission container spread across the full page */
+.submission-container {
+  width: 95%;
+  /* max-width: 1200px; Adjust max-width for better responsiveness */
+  margin: 20px auto;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+/* Title Styling */
+.submission-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #006644;
+  text-transform: uppercase;
+  border-bottom: 3px solid #006644;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Section Headers */
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004d40;
+  margin-top: 30px;
+}
+
+/* Paragraph Styling */
+.submission-content p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.submission-txt {
+  text-align: justify;
+}
+
+/* Highlighted Text */
+.highlight {
+  font-style: italic;
+  color: #ff6600;
+  font-weight: 600;
+}
+
+/* Template Download Section */
+.download-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border-left: 6px solid #008060;
+  border-radius: 5px;
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.download-btn {
+  background-color: #008060;
+  color: white;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #005a40;
+  transform: scale(1.05);
+}
+
+/* Footer Styling */
+.submission-footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #666;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+}
+
+/* Mobile Compatibility */
+@media (max-width: 768px) {
+  .submission-container {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    margin-top: 100px;
+  }
+
+  .submission-title {
+    font-size: 1.8rem; /* Adjusted for better readability on mobile */
+    margin-bottom: 15px;
+  }
+
+  .section-heading {
+    font-size: 1.3rem; /* Adjusted for better readability on mobile */
+    margin-top: 15px;
+  }
+
+  .submission-content p {
+    font-size: 1rem; /* Adjusted for better readability on mobile */
+    line-height: 1.6; /* Adjusted for better readability on mobile */
+  }
+
+  .download-section {
+    padding: 15px; /* Reduced padding for mobile */
+  }
+
+  .download-buttons {
+    flex-direction: column; /* Stack buttons vertically on mobile */
+    align-items: center; /* Center buttons on mobile */
+  }
+
+  .download-btn {
+    font-size: 1rem; /* Adjusted for better readability on mobile */
+    padding: 10px 15px; /* Adjusted for better touch targets */
+    width: 100%; /* Full width for buttons on mobile */
+    max-width: 200px; /* Limit max width for buttons */
+  }
+
+  .submission-footer {
+    font-size: 0.9rem; /* Adjusted for better readability on mobile */
+    margin-top: 20px;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .submission-container {
+    padding: 15px; /* Reduced padding for very small screens */
+  }
+
+  .submission-title {
+    font-size: 1.5rem; /* Smaller title for very small screens */
+  }
+
+  .section-heading {
+    font-size: 1.2rem; /* Smaller section heading for very small screens */
+  }
+
+  .submission-content p {
+    font-size: 0.9rem; /* Smaller paragraph font size for very small screens */
+  }
+
+  .download-btn {
+    font-size: 0.9rem; /* Smaller button font size for very small screens */
+    padding: 8px 12px; /* Adjusted padding for very small screens */
+  }
+}

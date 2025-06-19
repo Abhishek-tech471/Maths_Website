@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeebeb;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sponsors Section */
+.sponsors-container {
+  width: 90%; /* Increased width */
+  max-width: 1200px; /* Ensures it doesn't get too wide on very large screens */
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+/* Title Styling */
+.sponsors-title {
+  font-size: 2.2rem; /* Slightly bigger */
+  font-weight: bold;
+  color: rgb(24, 128, 36);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.title-underline {
+  width: 80px; /* Slightly longer underline */
+  height: 4px;
+  background-color: rgb(24, 128, 36);
+  border-radius: 2px;
+  margin: 8px auto;
+}
+
+/* Description */
+.sponsors-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+/* Table Styling */
+.table-container {
+  overflow-x: auto;
+}
+
+.sponsors-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.sponsors-table th,
+.sponsors-table td {
+  padding: 14px; /* Increased padding for better spacing */
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.sponsors-table th {
+  background-color: rgb(24, 128, 36);
+  color: white;
+}
+
+.sponsors-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .sponsors-container {
+    width: 95%; /* Slightly smaller width for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsors-container {
+    width: 98%;
+    padding: 20px;
+  }
+
+  .sponsors-table th,
+  .sponsors-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .sponsors-title {
+    font-size: 1.8rem;
+  }
+}
