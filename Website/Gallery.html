@@ -38,7 +38,7 @@
   <!-- GALLERY SECTIONS -->
   <div class="gallery-container">
 
-    <!-- PARC 2025 -->
+    <!-- 2025 -->
     <div class="gallery-section">
       <h2 class="gallery-title">Glimpses of PARC 2025</h2>
       <div class="gallery-grid" id="gallery2025">
@@ -50,7 +50,7 @@
       <button class="view-more-btn" onclick="toggleGallery('gallery2025', this)">View More</button>
     </div>
 
-    <!-- PARC 2024 -->
+    <!-- 2024 -->
     <div class="gallery-section">
       <h2 class="gallery-title">Glimpses of PARC 2024</h2>
       <div class="gallery-grid" id="gallery2024">
@@ -62,7 +62,7 @@
       <button class="view-more-btn" onclick="toggleGallery('gallery2024', this)">View More</button>
     </div>
 
-    <!-- PARC 2023 -->
+    <!-- 2023 -->
     <div class="gallery-section">
       <h2 class="gallery-title">Glimpses of PARC 2023</h2>
       <div class="gallery-grid" id="gallery2023">
@@ -74,11 +74,23 @@
       <button class="view-more-btn" onclick="toggleGallery('gallery2023', this)">View More</button>
     </div>
 
+    <!-- 2022 -->
+    <div class="gallery-section">
+      <h2 class="gallery-title">Glimpses of PARC 2022</h2>
+      <div class="gallery-grid" id="gallery2022">
+        <img src="assets/2022/image1.png" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2022/image2.png" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2022/image3.png" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2022/image4.png" class="gallery-image" alt="Gallery Image">
+      </div>
+      <button class="view-more-btn" onclick="toggleGallery('gallery2022', this)">View More</button>
+    </div>
+
   </div>
 
   <!-- FOOTER -->
   <div class="footer">
-    <p>Copyright © RAMSIA-2026. All Rights Reserved.</p>
+    <p>Copyright © PARC 2026. All Rights Reserved.</p>
     <div class="social-icons">
       <a href="#"><i class="fa fa-facebook"></i></a>
       <a href="#"><i class="fa fa-twitter"></i></a>
@@ -87,7 +99,7 @@
     </div>
   </div>
 
-  <!-- SCRIPT -->
+  <!-- JS SCRIPT -->
   <script>
     const imageSets = {
       gallery2025: [
@@ -107,7 +119,13 @@
         "1R6A9632.JPG", "1R6A9635.JPG", "1R6A9649.JPG", "1R6A9683.JPG",
         "1R6A9691.JPG", "1R6A9718.JPG", "1R6A9720.JPG", "1R6A9730.JPG",
         "1R6A9748.JPG", "1R6A9759.JPG", "1R6A9827.JPG", "1R6A9847.JPG"
-      ].map(file => `assets/2023/${file}`)
+      ].map(file => `assets/2023/${file}`),
+
+      gallery2022: [
+        "image5.png", "image6.png", "image7.png", "image8.png",
+        "image9.png", "image10.png", "image11.png", "image12.png",
+        "image13.png", "image14.png", "image15.png", "image16.png"
+      ].map(file => `assets/2022/${file}`)
     };
 
     function toggleGallery(galleryId, button) {
