@@ -1,159 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery</title>
-    <link rel="stylesheet" href="Gallery.css" />
-    <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="body">
-    <nav class="navbar">
-      <div class="logo-container">
-        <a href="index.html">
-          <img src="./assets/gla_lgog.webp" alt="Logo" class="navbar-logo" />
-        </a>
-      </div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="committee.html">Committee</a></li>
-        <li><a href="./keynotespeaker.html">Keynote Speakers</a></li>
-        <li><a href="./Tutorial.html">Tutorial</a></li>
-        <li><a href="./Registration.html">Registration</a></li>
-        <li><a href="./callforpaper.html">Call For Paper</a></li>
-        <li><a href="./Submission.html">Submission</a></li>
-        <li><a href="./Venue.html">Venue</a></li>
-        <li><a href="./Accommodation.html">Accommodation</a></li>
-        <li><a href="./Gallery.html">Gallery</a></li>
-        <li><a href="./ContactUs.html">Contact Us</a></li>
-        <li><a href="./Sponsors.html">Sponsors</a></li>
-      </ul>
-      <button class="menu-button" id="menu-button">☰</button>
-    </nav>
-    <div class="gallery-container">
-      <!-- Glimpses of PARC 2024 -->
-      <div class="gallery-section">
-        <h2 class="gallery-title">Glimpses of PARC 2024</h2>
-        <div class="gallery-grid" id="glimpsesGallery">
-          <img
-            src="assets/g17.webp"
-            alt="Gallery Image"
-            class="gallery-image"
-          />
-          <img
-            src="assets/g18.webp"
-            alt="Gallery Image"
-            class="gallery-image"
-          />
-          <img
-            src="assets/g19.webp"
-            alt="Gallery Image"
-            class="gallery-image"
-          />
-          <img
-            src="assets/g20.webp"
-            alt="Gallery Image"
-            class="gallery-image"
-          />
-        </div>
-        <button
-          class="view-more-btn"
-          onclick="toggleGallery('glimpsesGallery', this)"
-        >
-          View More
-        </button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="Gallery.css" />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body class="body">
 
-      <!-- Glimpses of PARC 2020-2022 -->
-      <div class="gallery-section">
-        <h2 class="gallery-title">Glimpses of PARC 2020-2022</h2>
-        <div class="gallery-grid" id="electricalGallery">
-          <img src="assets/g1.webp" alt="Gallery Image" class="gallery-image" />
-          <img src="assets/g2.webp" alt="Gallery Image" class="gallery-image" />
-          <img src="assets/g3.webp" alt="Gallery Image" class="gallery-image" />
-          <img src="assets/g4.webp" alt="Gallery Image" class="gallery-image" />
-        </div>
-        <button
-          class="view-more-btn"
-          onclick="toggleGallery('electricalGallery', this)"
-        >
-          View More
-        </button>
-      </div>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="./assets/gla_lgog.webp" alt="Logo" class="navbar-logo" />
+      </a>
     </div>
-    <div class="footer">
-      <p>Copyright © PARC 2026. All Rights Reserved.</p>
-      <div class="social-icons">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="committee.html">Committee</a></li>
+      <!-- <li><a href="./keynotespeaker.html">Keynote Speakers</a></li> -->
+      <li><a href="./Tutorial.html">Tutorial</a></li>
+      <li><a href="./Registration.html">Registration</a></li>
+      <!-- <li><a href="./callforpaper.html">Call For Paper</a></li>
+      <li><a href="./Submission.html">Submission</a></li> -->
+      <li><a href="./Venue.html">Venue</a></li>
+      <!-- <li><a href="./Accommodation.html">Accommodation</a></li> -->
+      <li><a href="./Gallery.html">Gallery</a></li>
+      <li><a href="./ContactUs.html">Contact Us</a></li>
+      <!-- <li><a href="./Sponsors.html">Sponsors</a></li> -->
+    </ul>
+    <button class="menu-button" id="menu-button">☰</button>
+  </nav>
+
+  <!-- GALLERY SECTIONS -->
+  <div class="gallery-container">
+
+    <!-- PARC 2025 -->
+    <div class="gallery-section">
+      <h2 class="gallery-title">Glimpses of PARC 2025</h2>
+      <div class="gallery-grid" id="gallery2025">
+        <img src="assets/2025/DSC_3687.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2025/DSC_3693.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2025/DSC_3694.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2025/DSC_3698.JPG" class="gallery-image" alt="Gallery Image">
       </div>
+      <button class="view-more-btn" onclick="toggleGallery('gallery2025', this)">View More</button>
     </div>
 
-    <script>
-      function toggleGallery(galleryId, button) {
-        const gallery = document.getElementById(galleryId);
-        const isExpanded = gallery.classList.contains("expanded");
+    <!-- PARC 2024 -->
+    <div class="gallery-section">
+      <h2 class="gallery-title">Glimpses of PARC 2024</h2>
+      <div class="gallery-grid" id="gallery2024">
+        <img src="assets/2024/DSC_8963.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2024/DSC_8966.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2024/DSC_8967.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2024/DSC_8968.JPG" class="gallery-image" alt="Gallery Image">
+      </div>
+      <button class="view-more-btn" onclick="toggleGallery('gallery2024', this)">View More</button>
+    </div>
 
-        if (isExpanded) {
-          // Collapse: Remove dynamically added images
-          const staticImages = gallery.querySelectorAll(
-            ".gallery-image:first-child, .gallery-image:nth-child(2), .gallery-image:nth-child(3), .gallery-image:nth-child(4)"
-          );
-          gallery.innerHTML = ""; // Clear all images
-          staticImages.forEach((img) => gallery.appendChild(img)); // Re-add original images
-          gallery.classList.remove("expanded");
-          button.textContent = "View More";
-        } else {
-          // Expand: Load more images dynamically
-          const images = {
-            glimpsesGallery: [
-              "g21.webp",
-              "g22.webp",
-              "g23.webp",
-              "g24.webp",
-              "g25.webp",
-              "g26.webp",
-              "g27.webp",
-              "g28.webp",
-              "g29.webp",
-              "g30.webp",
-              "g31.webp",
-            ],
-            electricalGallery: [
-              "g5.webp",
-              "g6.webp",
-              "g7.webp",
-              "g8.webp",
-              "g9.webp",
-              "g10.webp",
-              "g11.webp",
-              "g12.webp",
-              "g13.webp",
-              "g14.webp",
-              "g15.webp",
-              "g16.webp",
-            ],
-          };
+    <!-- PARC 2023 -->
+    <div class="gallery-section">
+      <h2 class="gallery-title">Glimpses of PARC 2023</h2>
+      <div class="gallery-grid" id="gallery2023">
+        <img src="assets/2023/1R6A9604.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2023/1R6A9611.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2023/1R6A9627.JPG" class="gallery-image" alt="Gallery Image">
+        <img src="assets/2023/1R6A9629.JPG" class="gallery-image" alt="Gallery Image">
+      </div>
+      <button class="view-more-btn" onclick="toggleGallery('gallery2023', this)">View More</button>
+    </div>
 
-          images[galleryId].forEach((imgSrc) => {
-            const imgElement = document.createElement("img");
-            imgElement.src = `assets/${imgSrc}`;
-            imgElement.classList.add("gallery-image");
-            imgElement.alt = "Gallery Image";
-            gallery.appendChild(imgElement);
-          });
+  </div>
 
-          gallery.classList.add("expanded");
-          button.textContent = "View Less";
-        }
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Copyright © RAMSIA-2026. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    const imageSets = {
+      gallery2025: [
+        "DSC_3704.JPG", "DSC_3706.JPG", "DSC_3724.JPG", "DSC_3784.JPG",
+        "DSC_3802.JPG", "DSC_3818.JPG", "DSC_4278.JPG", "DSC_4279.JPG",
+        "DSC_4284.JPG", "DSC_4285.JPG"
+      ].map(file => `assets/2025/${file}`),
+
+      gallery2024: [
+        "DSC_8972.JPG", "DSC_8989.JPG", "DSC_9023.JPG", "DSC_9032.JPG",
+        "DSC_9047.JPG", "DSC_9050.JPG", "DSC_9057.JPG", "DSC_9059.JPG",
+        "DSC_9092.JPG", "DSC_9098.JPG", "DSC_9122.JPG", "DSC_9138.JPG",
+        "DSC_9195.JPG", "DSC_9468.JPG"
+      ].map(file => `assets/2024/${file}`),
+
+      gallery2023: [
+        "1R6A9632.JPG", "1R6A9635.JPG", "1R6A9649.JPG", "1R6A9683.JPG",
+        "1R6A9691.JPG", "1R6A9718.JPG", "1R6A9720.JPG", "1R6A9730.JPG",
+        "1R6A9748.JPG", "1R6A9759.JPG", "1R6A9827.JPG", "1R6A9847.JPG"
+      ].map(file => `assets/2023/${file}`)
+    };
+
+    function toggleGallery(galleryId, button) {
+      const gallery = document.getElementById(galleryId);
+      const isExpanded = gallery.classList.contains("expanded");
+
+      if (isExpanded) {
+        const initial = [...gallery.querySelectorAll("img")].slice(0, 4);
+        gallery.innerHTML = "";
+        initial.forEach(img => gallery.appendChild(img));
+        gallery.classList.remove("expanded");
+        button.textContent = "View More";
+      } else {
+        imageSets[galleryId].forEach(imgSrc => {
+          const imgElement = document.createElement("img");
+          imgElement.src = imgSrc;
+          imgElement.alt = "Gallery Image";
+          imgElement.className = "gallery-image";
+          gallery.appendChild(imgElement);
+        });
+        gallery.classList.add("expanded");
+        button.textContent = "View Less";
       }
-    </script>
-  </body>
+    }
+  </script>
+
+</body>
 </html>
