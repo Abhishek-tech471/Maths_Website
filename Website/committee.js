@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         name: "Shri. Narayan Das Agrawal",
         designation: "Hon'ble Chancellor",
         institution: "GLA University, Mathura, India",
-        image: "assets/chiefPaton.webp"
       }
     ],
 
@@ -19,14 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
         name: "Prof. Durg Singh Chauhan",
         designation: "Pro Chancellor",
         institution: "GLA University, Mathura, India",
-        image: "assets/patron-durg-singh.webp"
       },
       {
         title: "Patron",
         name: "Prof. Anoop Kumar Gupta",
         designation: "Pro-Vice-Chancellor",
         institution: "GLA University, Mathura, India",
-        image: "assets/patron-anoop-gupta.webp"
       }
     ],
       // Advisors
@@ -36,14 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Prof. Anirudh Pradhan",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/advisor-anirudh-pradhan.webp"
         },
         {
           title: "Advisor",
           name: "Prof. Saibal Ray",
           designation: "",
           institution: "",
-          image: "assets/default-avatar.webp"
         }
       ],
 
@@ -54,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Prof. Manish Goyal",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/advisor-manish-goyal.webp"
         }
       ],
 
@@ -65,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Prof. Umesh Kumar Sharma",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/organizingChair-umesh.webp"
         }
       ],
 
@@ -76,14 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Dr. Vipin Chandra Dubey",
           designation: "Associate Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
-          image: "assets/co-convener-vipin.webp"
         },
         {
           title: "Convener",
           name: "Dr. Mohit Kumar",
           designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
-          image: "assets/co-convener-mohit.webp"
         }
       ],
 
@@ -94,14 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Dr. Sweta Shukla",
           designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
-          image: "assets/secretary-sweta.webp"
         },
         {
           title: "Co-Convener",
           name: "Dr. Pooja Verma",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/default-avatar.webp"
         }
       ],
 
@@ -112,28 +101,24 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "Dr. Mukesh Kumar",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/default-avatar.webp"
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Amit Kumar Saraswat",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/secretary-amit.webp"
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Ankita Pandey",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/default-avatar.webp"
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Masum Raj",
           designation: "",
           institution: "GLA University, Mathura, India",
-          image: "assets/default-avatar.webp"
         }
       ],
 
@@ -163,7 +148,6 @@ document.addEventListener("DOMContentLoaded", function () {
         name,
         designation: "",
         institution: "GLA University, Mathura, India",
-        image: "assets/default-avatar.webp"
       }))
     ]
   };
@@ -172,7 +156,6 @@ document.addEventListener("DOMContentLoaded", function () {
     return `
       <div class="committee-card">
         <h3 class="committee-title">${member.title}</h3>
-        <img src="${member.image}" alt="${member.name}" class="committee-image">
         <p class="committee-name">${member.name}</p>
         <p class="committee-designation">${member.designation}</p>
         <p class="committee-institution">${member.institution}</p>
