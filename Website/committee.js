@@ -30,6 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
       [
         {
           title: "Advisor",
+          name: "Shri Ashok Kumar Singh",
+          designation: "",
+          institution: "GLA University, Mathura, India",
+        },
+        {
+          title: "Advisor",
+          name: "Prof. Ashish Sharma",
+          designation: "",
+          institution: "GLA University, Mathura, India",
+        },
+        {
+          title: "Advisor",
           name: "Prof. Anirudh Pradhan",
           designation: "",
           institution: "GLA University, Mathura, India",
@@ -38,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "Advisor",
           name: "Prof. Saibal Ray",
           designation: "",
-          institution: "",
+          institution: "GLA University, Mathura, India",
         }
       ],
 
