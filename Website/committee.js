@@ -136,25 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Organizing Committee Members
       [
-        "Dr. Ambuj Kumar Mishra",
-        "Dr. Vinod Kumar Bhardwaj",
-        "Dr. Priyanka Garg",
-        "Dr. Sanjeev Gupta",
-        "Dr. Abhishek Kumar Singh",
-        "Dr. Kapil Kumar",
-        "Dr. Jayati Tripathi",
-        "Dr. Chandni Kumari",
-        "Dr. Vineet Kumar Chaurasiya",
-        "Dr. Rajeev Prasad",
-        "Dr. Ankita Dubey",
-        "Dr. Tanya Gupta",
-        "Dr. Shruti Tiwari",
-        "Dr. Nishant Kumar",
-        "Dr. Umashankar Samal",
-        "Dr. Jaspreet Kaur",
-        "Dr. Vaishali Varshney",
-        "Dr. Ruchi Singh Rajawat",
-        "Dr. Swagata Nandy"
+        " All the faculty members of the Department of Mathematics, GLA University, Mathura."
       ].map(name => ({
         title: "Organizing Committee Member",
         name,

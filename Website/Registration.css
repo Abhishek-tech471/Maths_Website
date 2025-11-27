@@ -177,3 +177,71 @@ h2 {
 .email-link:hover {
   text-decoration: underline;
 }
+
+
+/* Single Registration Block */
+.single-box {
+  text-align: center;
+  padding: 35px;
+  background: #f1f8e9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  margin-top: 40px;
+}
+
+.reg-info-text {
+  font-size: 16px;
+  color: #444;
+  margin: 15px 0 25px 0;
+}
+
+/* Big Button */
+.big-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #00796b;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 25px;
+}
+
+.big-button:hover {
+  background: #004d40;
+}
+
+/* QR Wrapper */
+.qr-wrapper {
+  margin-top: 10px;
+}
+
+.qr-image-large {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  padding: 8px;
+  background: white;
+}
+
+.qr-note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Mobile Responsiveness */
+@media(max-width: 600px) {
+  .qr-image-large {
+    width: 170px;
+    height: 170px;
+  }
+  .big-button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+

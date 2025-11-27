@@ -65,7 +65,9 @@ p {
   background: #ffffff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  width: 900px; /* Keeping content width fixed */
+  width: 900px;
+  padding: 0;
+
 }
 
 /* Track Title */
@@ -177,5 +179,11 @@ p {
   .highlight-text,
   .highlight-date {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .track {
+    width: 100%;
   }
 }
