@@ -245,3 +245,55 @@ h2 {
   }
 }
 
+/* Submission System info box (top of Registration page) */
+.submission-info-card {
+  margin: 25px auto 10px auto;
+  background: #e3f2fd;
+  border-radius: 10px;
+  border: 1px solid #90caf9;
+  padding: 18px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.submission-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.submission-card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1a237e;
+}
+
+.external-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: 1px solid #1a237e;
+  font-size: 14px;
+}
+
+.submission-text {
+  margin: 4px 0 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.submission-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #00796b;
+  text-decoration: none;
+}
+
+.submission-link:hover {
+  text-decoration: underline;
+}
