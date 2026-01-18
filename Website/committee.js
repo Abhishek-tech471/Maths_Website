@@ -13,16 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Patron
     [
+      // {
+      //   title: "Patron",
+      //   name: "Prof. Durg Singh Chauhan",
+      //   designation: "Pro Chancellor",
+      //   institution: "GLA University, Mathura, India",
+      // },
       {
         title: "Patron",
-        name: "Prof. Durg Singh Chauhan",
-        designation: "Pro Chancellor",
-        institution: "GLA University, Mathura, India",
-      },
-      {
-        title: "Patron",
-        name: "Prof. Anoop Kumar Gupta",
-        designation: "Pro-Vice-Chancellor",
+        name: "Prof. Anup Kumar Gupta",
+        designation: "Vice-Chancellor",
         institution: "GLA University, Mathura, India",
       }
     ],
@@ -31,27 +31,27 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Advisor",
           name: "Shri Ashok Kumar Singh",
-          designation: "",
+          designation: "Registrar",
           institution: "GLA University, Mathura, India",
         },
         {
           title: "Advisor",
           name: "Prof. Ashish Sharma",
-          designation: "",
+          designation: "Dean Academic Affairs",
           institution: "GLA University, Mathura, India",
         },
         {
           title: "Advisor",
           name: "Prof. Anirudh Pradhan",
-          designation: "",
+          designation: "Professor, Emeritus & Research Advisor",
           institution: "GLA University, Mathura, India",
         },
-        {
-          title: "Advisor",
-          name: "Prof. Saibal Ray",
-          designation: "",
-          institution: "GLA University, Mathura, India",
-        }
+        // {
+        //   title: "Advisor",
+        //   name: "Prof. Saibal Ray",
+        //   designation: "",
+        //   institution: "GLA University, Mathura, India",
+        // }
       ],
 
       // Chairperson
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Chairperson",
           name: "Prof. Manish Goyal",
-          designation: "",
+          designation: "Professor and Head Dept. of Mathematics",
           institution: "GLA University, Mathura, India",
         }
       ],
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Co-Chairperson",
           name: "Prof. Umesh Kumar Sharma",
-          designation: "",
+          designation: "Professor, Dept. of Mathematics",
           institution: "GLA University, Mathura, India",
         }
       ],
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Co-Convener",
           name: "Dr. Pooja Verma",
-          designation: "",
+          designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
         }
       ],
@@ -111,25 +111,25 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           title: "Organizing Secretary",
           name: "Dr. Mukesh Kumar",
-          designation: "",
+          designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Amit Kumar Saraswat",
-          designation: "",
+          designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Ankita Pandey",
-          designation: "",
+          designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
         },
         {
           title: "Organizing Secretary",
           name: "Dr. Masum Raj",
-          designation: "",
+          designation: "Assistant Professor, Department of Mathematics",
           institution: "GLA University, Mathura, India",
         }
       ],
