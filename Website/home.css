@@ -116,6 +116,8 @@ body {
   border-radius: 8px;
 }
 
+
+
 .know-more {
   background-color: #4caf50;
   color: white;
@@ -124,6 +126,24 @@ body {
   margin-top: 10px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+
+.TechFin {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.TechFin>div{
+  display: flex;
+  justify-content:space-around;
+}
+.TechFin img{
+  height: 220px;
+  width: auto;
 }
 
 /* Announcement Section */
