@@ -1,0 +1,268 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Publication Page Container */
+.publication-page {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Publication Section */
+.publication {
+  background: #ffffff;
+  padding: 60px;
+  margin: 20px auto;
+  width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.publication:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h2 {
+  color: #036633;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+hr {
+  width: 80px;
+  border: 3px solid #138d38;
+  border-radius: 10px;
+  margin: 15px auto 30px;
+  background: linear-gradient(to right, #036633, #138d38);
+}
+
+/* Paragraph */
+p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.publication > p {
+  font-size: 18px;
+  text-align: center;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.publication > p strong {
+  color: #138d38;
+  font-weight: 700;
+}
+
+/* Publication Details */
+.publication-details {
+  margin-top: 40px;
+  background: linear-gradient(135deg, #f9f9f9 0%, #f0f8f3 100%);
+  padding: 30px;
+  border-left: 6px solid #138d38;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.publication-details:hover {
+  box-shadow: 0 4px 15px rgba(19, 141, 56, 0.1);
+  border-left: 6px solid #036633;
+}
+
+.publication-details p {
+  font-size: 17px;
+  margin: 15px 0;
+  color: #333;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.publication-details p strong {
+  color: #036633;
+  font-weight: 700;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.publication-details a {
+  color: #138d38;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  word-break: break-word;
+}
+
+.publication-details a:hover {
+  color: #036633;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+/* Taylor & Francis Section */
+.taylor-francis-section {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8f5e9 100%);
+  border-radius: 12px;
+  border: 3px solid #138d38;
+  transition: all 0.3s ease;
+}
+
+.taylor-francis-section:hover {
+  background: linear-gradient(135deg, #f0f0f0 0%, #dff5e1 100%);
+  box-shadow: 0 8px 25px rgba(19, 141, 56, 0.15);
+  border-color: #036633;
+}
+
+.taylor-francis-logo {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+}
+
+.taylor-francis-logo:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 12px rgba(19, 141, 56, 0.2));
+}
+
+.taylor-francis-section p {
+  font-size: 18px;
+  color: #036633;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1280px) {
+  .publication {
+    width: 95%;
+    padding: 40px;
+  }
+
+  .publication-page {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .publication-page {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .publication {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 15px auto;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  hr {
+    width: 60px;
+    margin: 10px auto 20px;
+  }
+
+  .publication > p {
+    font-size: 16px;
+  }
+
+  .publication-details {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .publication-details p {
+    font-size: 15px;
+    margin: 12px 0;
+  }
+
+  .publication-details p strong {
+    display: block;
+    margin-bottom: 5px;
+    min-width: auto;
+  }
+
+  .taylor-francis-section {
+    padding: 25px 15px;
+    margin-top: 30px;
+    border: 2px solid #138d38;
+  }
+
+  .taylor-francis-logo {
+    max-width: 180px;
+    margin-bottom: 15px;
+  }
+
+  .taylor-francis-section p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .publication {
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 8px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .publication > p {
+    font-size: 15px;
+  }
+
+  .publication-details {
+    padding: 15px;
+  }
+
+  .publication-details p {
+    font-size: 14px;
+  }
+
+  .taylor-francis-section {
+    padding: 20px 10px;
+  }
+
+  .taylor-francis-logo {
+    max-width: 140px;
+  }
+
+  .taylor-francis-section p {
+    font-size: 14px;
+  }
+}

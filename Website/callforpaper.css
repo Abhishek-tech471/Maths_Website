@@ -279,3 +279,30 @@ p {
 .submission-guidelines a:hover {
   text-decoration: underline;
 }
+
+/* Taylor & Francis Section */
+.taylor-francis-section {
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border: 2px solid #138d38;
+}
+
+.taylor-francis-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taylor-francis-section p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
